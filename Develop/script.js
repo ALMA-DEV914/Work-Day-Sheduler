@@ -1,4 +1,5 @@
 var schedules = {};
 
- var currentDay = moment().format("MMMM Do, YYYY - hh:mm:ss a");
-
+ var date = (moment().format("dddd, MMMM Do, YYYY - hh:mm:ss a"));
+ 
+$("#currentDay").text(date);
