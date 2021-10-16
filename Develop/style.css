@@ -53,15 +53,17 @@ textarea {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 85px;
   border-top: 1px solid white;
+  clear: both;
+  content: "";
   
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border: 1px dashed #000000;
   
 }
 
@@ -96,4 +98,9 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
-
+.text-center{
+  font-size: 35px;
+  font-family: "Geneva", sans-serif;
+  font-weight: 900;
+  margin-top: 15px;
+}
