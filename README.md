@@ -17,6 +17,5 @@
  https://alma-dev914.github.io/Work-Day-Sheduler/
 
  ### Application Snapshot
- 
-<img width="1792" alt="Screen Shot 2021-10-15 at 6 14 32 PM" src="https://user-images.githubusercontent.com/65073138/137567995-78e7ab86-af02-4825-a213-b5bac0b877b1.png">
-<img width="1792" alt="Screen Shot 2021-10-15 at 6 15 08 PM" src="https://user-images.githubusercontent.com/65073138/137568000-e3fdea51-c3e9-42f4-b203-684d56554b6b.png">
+
+

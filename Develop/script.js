@@ -10,6 +10,7 @@ $(document).ready(function () {
     var textarea = $("#textArea").val() + " at 8:00am";
     alert("Your schedule was save for 8:00am");
     console.log(textarea);
+    
   });
   $("#saveBtn1").click(function () {
     var textarea = $("#textArea1").val() + " at 8:30am";
@@ -68,3 +69,4 @@ $(document).ready(function () {
     localStorage.setItem("item-" + $(this).attr("data-store"), $(this).val());
   });
 });
+
