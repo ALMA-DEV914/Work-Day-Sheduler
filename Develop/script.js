@@ -1,4 +1,4 @@
-
+// get time format from moment.js
 var date = moment().format("dddd, MMMM Do, YYYY - hh:mm:ss a");
 //$("#currentDay").text(date);
 
@@ -60,7 +60,7 @@ function setCurrentDateAndHour() {
 function buildTimeBlocks() {
   var containerDiv = $(".container"); // get the container div to append new rows to
 
-  // Loop through hourMap, from [firstEntry] of "9AM" to [lastEntry] of "5PM"
+  // Loop through hourMap, from [firstSched] of "9AM" to [lastSched] of "5PM"
   for (let hourBlock=firstShed; hourBlock <= lastShed; hourBlock++) {
       // build the html for the row and the first column
       var newHtml = '<div class="row time-block"> ' +
@@ -94,10 +94,10 @@ function buildTimeBlocks() {
 
 // loads timeEntries array from localstorage
 function getTimeEntries() {
-  var teList = JSON.parse(localStorage.getItem(timeEntriesName));
+  var timeEntryList = JSON.parse(localStorage.getItem(timeEntriesName));
 
-  if (teList) {
-      timeEntries = teList;
+  if (timeEntryList) {
+      timeEntries = timeEntryList;
   }
 
   for (let i=0; i<timeEntries.length; i++) {
@@ -144,7 +144,7 @@ function saveClick() {
         }
     }
 
-    // check the timeEntries array to see if there is already an entry for this hour
+// check the timeEntries array to see if there is already an entry for this hour
     for (let i=0; i<timeEntries.length; i++) {
         if (timeEntries[i].day == currentDate) {
             if (timeEntries[i].time == hourBlock) {
@@ -175,9 +175,7 @@ function saveClick() {
 }
 
 
-
-
-$(document).ready(function () {
+/*$(document).ready(function () {
   $("*[data-store]").each(function () {
     $(this).val(localStorage.getItem("item-" + $(this).attr("data-store")));
   });
@@ -187,3 +185,4 @@ $(document).ready(function () {
   });
 });
 
+*/
