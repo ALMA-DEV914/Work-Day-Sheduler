@@ -18,5 +18,6 @@
 
  ### Application Snapshot
 
+![scheduler](https://user-images.githubusercontent.com/65073138/137788092-f83512db-80c1-48f6-a62f-6071e72cf24c.jpg)
 
 ![scheduler](https://user-images.githubusercontent.com/65073138/137570814-f2d61658-2dda-4e6b-b495-f2e2c1e0d4ca.jpg)
