@@ -20,6 +20,7 @@
 
  ### Application Snapshot
 
-![scheduler](https://user-images.githubusercontent.com/65073138/137788092-f83512db-80c1-48f6-a62f-6071e72cf24c.jpg)
+![workdayScheduler](https://user-images.githubusercontent.com/65073138/137788463-6e906fb9-40a8-4034-9a6e-f0dfddeafc5f.jpg)
+
 
 ![scheduler](https://user-images.githubusercontent.com/65073138/137570814-f2d61658-2dda-4e6b-b495-f2e2c1e0d4ca.jpg)
